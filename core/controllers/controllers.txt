@@ -1,0 +1,3 @@
+representa la lógica de programación del lado del
+frontend que interactúa con la API, es decir, envía peticiones y recibe
+resultados

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <!-- Se especifica la codificación de caracteres para el documento -->
+        <meta charset="utf-8">
+        <!-- Se indica al navegador que la página web está optimizada para dispositivos móviles -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Título del documento -->
+        <title>Titulo</title>
+        <!-- Importación de archivos CSS -->
+        <link rel="stylesheet" href="../../resources/css/normalize.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap">
+        <link rel="stylesheet" href="../../resources/css/all.min.css">
+        <link rel="stylesheet" href="../../resources/css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="../../resources/css/publicstyle.css" type="text/css">
+        <!-- Llamada a un archivo tipo icono -->
+        <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+    </head>
+
+    <!--Cuerpo del documento-->
+    
+    <body>
+        <!--Encabezado del documento-->
+        <header>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="overlay"></div>
+            <!--Nav/menú-->
+            <nav class="navegation">
+                <i class="fas fa-times close"></i>
+                <div class="logo">
+                    <img src="../../resources/img/logos.svg" alt="logo">
+                </div>
+                <!--Parte central del nav-->
+                <div class="nav-middle">
+                    <ul>
+                        <li>
+                            <a href="#">Mujeres</a>
+                        </li>
+                        <li>
+                            <a href="#">Hombres</a>
+                        </li>
+                        <li>
+                            <a href="#">Niños</a>
+                        </li>
+                        <li>
+                            <a href="#">Exclusivo</a>
+                        </li>
+                        <li>
+                            <a href="#">Suscripción</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Parte derecha del nav-->
+                <div class="nav-right">
+                    <ul>
+                        <li>
+                            <a href="#"><i class="fas fa-search"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-user"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        <!-- Contenedor principal-->
+        <div class="container-fluid">
+            <div class="row mx-auto">
+                <div class="col-md-5">
+                    <main class="configuracion-left">
+                        <!-- Configuración, parte izquierda -->
+                        <section class="conf-left mx-auto col-9">
+                            <form class="conf-form border border-light">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="sm-12 md-2 lg-2 columns">
+                                        <div class="circle position-relative mb-3 mx-auto">
+                                            <!-- Imagen de perfil del usuario -->
+                                            <img class="profile-pic-account rounded-circle mx-auto"
+                                                src="../../resources/img/user.jpg">
+                                            <!-- Imagen por default -->
+                                            <div class="p-image">
+                                                <i class="fa fa-camera upload-button"></i>
+                                                <input class="file-upload" type="file" accept="image/*"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4 class="mt-5">INFORMACIÓN PERSONAL</h4>
+                                <div class="form-group">
+                                    <label for="exampleInputName">Nombres</label>
+                                    <input type="text" class="form-control" id="exampleInputName"
+                                        placeholder="Nombres">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputSurame">Apellidos</label>
+                                    <input type="text" class="form-control" id="exampleInputSurame"
+                                        placeholder="Apellidos">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputNumber">Teléfono</label>
+                                    <input type="text" class="form-control" id="exampleInputNumber"
+                                        placeholder="Teléfono">
+                                </div>
+                                <h4 class="mt-5">INFORMACIÓN DE LA CUENTA</h4>
+                                <div class="form-group">
+                                    <label for="exampleInputUser">Usuario</label>
+                                    <input type="text" class="form-control" id="exampleInputUser"
+                                        placeholder="Usuario">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail">Correo</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail"
+                                        placeholder="Correo">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword">Contraseña</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword"
+                                        placeholder="Contraseña">
+                                </div>
+                                <div class="form-group mb-5">
+                                    <label for="exampleInputPassword1">Confirmar contraseña</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1"
+                                        placeholder="Confirmar contraseña">
+                                </div>
+                                <button type="submit" class="btn btn-actualizar">Actualizar</button>
+                            </form>
+                        </section>
+                    </main>
+                </div>
+                <!-- Parte de -->
+                <div class="col">
+                    <main class="configuracion-right">
+                        <!-- Configuración, parte derecha -->
+                        <section class="conf-right">
+                            <form class="conf-form-2  border border-light">
+                                <h4 class="my-5">GESTIONAR DIRECCIONES</h4>
+                                <!-- Input de direccion-->
+                                <div class="form-group my-4 ">
+                                    <label for="inputDireccion">Direccion 1</label>
+                                    <input type="text" class="form-control" id="inputDireccion" placeholder="Dirección">
+                                </div>
+                                <!-- Input de departamento-->
+                                <label for="inputCity">Departamento</label>
+                                <select id="inputCity" class="form-control col-5">
+                                    <option selected>San Salvador</option>
+                                    <option selected>San Miguel</option>
+                                    <option selected>Santa Ana</option>
+                                    <option selected>Cuscatlán</option>
+                                    <option selected>La Libertad</option>
+                                    <option selected>Chalatenango</option>
+                                    <option selected>Ahuachapán</option>
+                                    <option selected>La Paz</option>
+                                    <option selected>La Unión</option>
+                                    <option selected>Morazán</option>
+                                    <option selected>San Vicente</option>
+                                    <option selected>Sonsonate</option>
+                                    <option selected>Usulután</option>
+                                    <option selected>Cabañas</option>
+                                </select>
+                                <!-- Input de direccion -->
+                                <div class="form-group my-4">
+                                    <label for="inputDireccion">Direccion 2</label>
+                                    <input type="text" class="form-control" id="inputDireccion" placeholder="Dirección">
+                                </div>
+                                <!-- Input de departamento -->
+                                <label for="inputCity">Departamento</label>
+                                <select id="inputCity" class="form-control col-5">
+                                    <option selected>San Salvador</option>
+                                    <option selected>San Miguel</option>
+                                    <option selected>Santa Ana</option>
+                                    <option selected>Cuscatlán</option>
+                                    <option selected>La Libertad</option>
+                                    <option selected>Chalatenango</option>
+                                    <option selected>Ahuachapán</option>
+                                    <option selected>La Paz</option>
+                                    <option selected>La Unión</option>
+                                    <option selected>Morazán</option>
+                                    <option selected>San Vicente</option>
+                                    <option selected>Sonsonate</option>
+                                    <option selected>Usulután</option>
+                                    <option selected>Cabañas</option>
+                                </select>
+                                <!-- Input de direccion -->
+                                <div class="form-group my-4">
+                                    <label for="inputDireccion">Direccion 3</label>
+                                    <input type="text" class="form-control" id="inputDireccion" placeholder="Dirección">
+                                </div>
+                                <!-- Input de departamento -->
+                                <label for="inputCity">Departamento</label>
+                                <select id="inputCity" class="form-control col-5">
+                                    <option selected>San Salvador</option>
+                                    <option selected>San Miguel</option>
+                                    <option selected>Santa Ana</option>
+                                    <option selected>Cuscatlán</option>
+                                    <option selected>La Libertad</option>
+                                    <option selected>Chalatenango</option>
+                                    <option selected>Ahuachapán</option>
+                                    <option selected>La Paz</option>
+                                    <option selected>La Unión</option>
+                                    <option selected>Morazán</option>
+                                    <option selected>San Vicente</option>
+                                    <option selected>Sonsonate</option>
+                                    <option selected>Usulután</option>
+                                    <option selected>Cabañas</option>
+                                </select>
+                                <!-- Input de direccion -->
+                                <div class="form-group my-4">
+                                    <label for="inputDireccion">Direccion 4</label>
+                                    <input type="text" class="form-control" id="inputDireccion" placeholder="Dirección">
+                                </div>
+                                <!-- Input de departamento -->
+                                <label for="inputCity">Departamento</label>
+                                <select id="inputCity" class="form-control col-5">
+                                    <option selected>San Salvador</option>
+                                    <option selected>San Miguel</option>
+                                    <option selected>Santa Ana</option>
+                                    <option selected>Cuscatlán</option>
+                                    <option selected>La Libertad</option>
+                                    <option selected>Chalatenango</option>
+                                    <option selected>Ahuachapán</option>
+                                    <option selected>La Paz</option>
+                                    <option selected>La Unión</option>
+                                    <option selected>Morazán</option>
+                                    <option selected>San Vicente</option>
+                                    <option selected>Sonsonate</option>
+                                    <option selected>Usulután</option>
+                                    <option selected>Cabañas</option>
+                                </select>
+                                <!-- Botón de actualizar -->
+                                <button type="submit" class="btn btn-actualizar mt-5">Actualizar</button>
+                            </form>
+                        </section>
+                    </main>
+                </div>
+            </div>
+            <!-- Pie del documento -->
+            <hr>
+        <footer class="page-footer font-small pt-4 px-md-5">
+            <!-- Footer Links -->
+            <div class="container-fluid text-center text-md-left">
+                <!-- Grid row -->
+                <div class="row">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 mb-md-0 mb-3">
+
+                        <!-- Links -->
+                        <h5 class="text-uppercase">Links</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!">Link 1</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 2</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 3</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 4</a>
+                            </li>
+                        </ul>
+                        <!-- Links -->
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 mb-md-0 mb-3">
+
+                        <!-- Links -->
+                        <h5 class="text-uppercase">Links</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!">Link 1</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 2</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 3</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 4</a>
+                            </li>
+                        </ul>
+                        <!-- Links -->
+                    </div>
+                    <!-- Grid column -->
+                    <hr class="clearfix w-100 d-md-none pb-3">
+                    <!-- Grid column -->
+                    <div class="col-md-6 mt-md-0 mt-3 text-md-right text-center">
+
+                        <!-- Content -->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia ultrices ipsum sit
+                            amet
+                            malesuada.</p>
+                        <p><a href="#">hello@lostsocksociety.com</a></p>
+                        <div class="logo">
+                            <img src="../../resources/img/logos.svg" alt="logo">
+                        </div>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+            <!-- Footer Links -->
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">©2020 Copyright Lost Sock. Todos los derechos reservados.
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+            <!-- Footer -->
+            <!-- Optional JavaScript -->
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <!-- Importación de archivos JavaScript al final del documento para una carga optimizada -->
+            <script src="../../resources/js/jquery-3.4.1.min.js" type="text/javascript"></script>
+            <script src="../../resources/js/popper.min.js" type="text/javascript"></script>
+            <script src="../../resources/js/bootstrap.min.js" type="text/javascript"></script>
+            <script src="../../resources/js/main.js" type="text/javascript"></script>
+    </body>
+</html>

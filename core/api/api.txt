@@ -1,0 +1,3 @@
+contiene la lógica de programación del lado del backend para recibir las
+peticiones del cliente (request) y enviar los resultados del servidor
+(response)
