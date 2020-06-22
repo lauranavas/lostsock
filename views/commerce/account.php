@@ -2,8 +2,8 @@
 require_once('../../core/helpers/template-commerce.php');
 Page::headerTemplate('Lost Sock');
 ?>
-
- <div class="container-fluid cover-general">
+<body>
+    <div class="container-fluid cover-general">
             <div class="row mx-auto">
                 <div class="col-md-5">
                     <main class="configuracion-left">
@@ -172,7 +172,8 @@ Page::headerTemplate('Lost Sock');
                     </main>
                 </div>
             </div>
-
+        </div>
+</body>
 <?php
 Page::footerTemplate();
 ?>

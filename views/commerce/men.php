@@ -5,7 +5,7 @@ Page::headerTemplate('Hombres');
 <!-- Jumbotron -->
         <div class="jumbotron jumbotron-fluid jumbotron-cover cover-general cover-image">
             <div class="container">
-                <h1 class="display-4">Colección para hombres</h1>
+                <h2 class="font-weight-normal">COLECCIÓN PARA HOMBRES</h2>
             </div>
         </div>
         <!-- Grupo de cards para productos -->
