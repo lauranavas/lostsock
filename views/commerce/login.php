@@ -4,7 +4,7 @@ Page::headerTemplate('Lost Sock');
 ?>
     <div class="container-fluid">
             <div class="row justify-content-center my-auto">        
-                <div class="col-xl-10 col-lg-12 col-md-9">
+                <div class="col-xl-10 col-lg-12 col-md-9 login--container">
                     <div class="card o-hidden border-0 shadow-lg mt-5 mb-n5">
                         <div class="card-body mt-5">
                             <div class="row mt-5">

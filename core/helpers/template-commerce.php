@@ -169,6 +169,7 @@ class Page {
                 <script src="../../resources/js/bootstrap.min.js" type="text/javascript"></script>
                 <script src="../../resources/js/main.js" type="text/javascript"></script>
                 <script src="../../resources/js/all.min.js" type="text/javascript"></script>
+                <!-- Latest compiled and minified CSS -->
         </body>
     </html>');
     }
