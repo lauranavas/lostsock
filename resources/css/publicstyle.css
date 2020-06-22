@@ -389,19 +389,23 @@ footer .logo{
 	.bg-image {
 	background-image: url('../../resources/img/duotone.png');
 	}
+
+	.cover-image {
+  	background-image: url('../../resources/img/cover767.jpg');
+	}
+
+	.titulo--cover{
+		display: none;
+	}
 	
 }
 
 
-@media screen and (max-width: 600px){
-	.product-info{
-		font-size: 1.13rem;
-	}
+@media screen and (max-width: 576px){
 
-	.btn.btn-product-info{
-		padding: 0.67rem;
+	.cover-image {
+	  background-image: url('../../resources/img/cover576.jpg');
 	}
-
 
 }
 

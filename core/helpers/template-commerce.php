@@ -85,7 +85,7 @@ class Page {
                     <!-- Grid row -->
                     <div class="row">
                         <!-- Grid column -->
-                        <div class="col-md-3 mb-md-0 mb-3">
+                        <div class="col-md-3 mb-md-0">
                             <!-- Links -->
                             <p class="text-uppercase font-weight-bold">CATEGORÍAS</hp>
                             <ul class="list-unstyled">
@@ -109,7 +109,7 @@ class Page {
                         </div>
                         <!-- Grid column -->
                         <!-- Grid column -->
-                        <div class="col-md-3 mb-md-0 mb-3">
+                        <div class="col-md-3 mb-md-0">
                             <!-- Links -->
                             <p class="text-uppercase font-weight-bold">NAVEGAR</hp>
                             <ul class="list-unstyled">
