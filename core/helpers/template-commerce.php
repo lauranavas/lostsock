@@ -73,6 +73,107 @@ class Page {
                 <!-- Menú/nav -->
             </header>
             <main>
+                <!-- Modal -->
+                <div class="modal fade" id="modalAbout" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="jumbotron jumbotron-fluid cover--about">
+                                            <div class="container">
+                                                <h2 class="display-4 text-muted">Nuestra historia</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="container">
+                                            <p class="lead">
+                                                Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est
+                                                non commodo luctus.
+                                                Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est
+                                                non commodo luctus.
+                                                Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est
+                                                non commodo luctus.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End modal -->
+                <!-- Modal -->
+                <div class="modal fade" id="modalTerms" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-12 col-md-4">
+                                        <div class="card text-center custom--card">
+                                            <div class="card-body">
+                                                <div class="fad fa-box mb-5 fa-3x text-purple"></div>
+                                                <h4 class="card-title mb-4 text-secondary font-weight-light">Devoluciones</h2>
+                                                    <p class="card-text mx-auto text-secondary">Si después de recibir tu pedido te
+                                                        encuentras
+                                                        insatisfecho con nuestros productos, tienes 5 días para solicitar un reembolso
+                                                        de tu dinero, siempre
+                                                        y cuando el producto se encuentre en el empaque orginal y en buen estado.
+                                                    </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <div class="card text-center custom--card">
+                                            <div class="card-body">
+                                                <div class="fad fa-money-bill-wave mb-5 fa-3x text-purple"></div>
+                                                <h4 class="card-title mb-4 text-secondary font-weight-light">Precios</h2>
+                                                    <p class="card-text mx-auto text-secondary">Los precios dependen del lugar donde te
+                                                        encuentres. Para el área metropolitana de San Salvador los envíos son gratuitos,
+                                                        entregados
+                                                        por el personal de Lost Sock, en caso contrario, los envíos son realizados por
+                                                        Correos de El Salvador.
+                                                    </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <div class="card text-center custom--card">
+                                            <div class="card-body">
+                                                <div class="fad fa-box-fragile mb-5 fa-3x text-purple"></div>
+                                                <h4 class="card-title mb-4 text-secondary font-weight-light">Daños</h2>
+                                                    <p class="card-text mx-auto text-secondary">Si el producto se encuentra dañado
+                                                        debido
+                                                        a mal manejo del servicio de correos, tienes un plazo de 15 días a partir de la
+                                                        fecha
+                                                        en la que recibiste el paquete para realizar tu reclamos y solicitar un cambio o
+                                                        una
+                                                        devolución.
+                                                    </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End modal -->
             <!-- Contenido principal -->');
         }
         public static function footerTemplate(){
@@ -114,16 +215,10 @@ class Page {
                             <p class="text-uppercase font-weight-bold">NAVEGAR</hp>
                             <ul class="list-unstyled">
                                 <li>
-                                    <a href="faq.php">FAQ</a>
+                                    <a data-toggle="modal" data-target="#modalAbout">Sobre nosotros</a>
                                 </li>
                                 <li>
-                                    <a href="about.php">Sobre nosotros</a>
-                                </li>
-                                <li>
-                                    <a href="terms.php">Condiciones de envío</a>
-                                </li>
-                                <li>
-                                    <a href="policy.php">Política de devolución</a>
+                                    <a data-toggle="modal" data-target="#modalTerms">Condiciones de envío</a>
                                 </li>
                             </ul>
                             <!-- Links -->

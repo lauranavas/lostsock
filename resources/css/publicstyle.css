@@ -164,6 +164,12 @@ footer .logo{
   background-position: center center;
 }
 
+.cover--about {
+  background-image: url('../../resources/img/about.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
 
 @-webkit-keyframes opacity {
 	0%{
@@ -437,7 +443,7 @@ footer .logo{
  }
 
  .text-purple{
-	color: rgba(146,80,247,1);
+	color: rgb(146, 80, 247);
  }
 
  .text-yellow{
@@ -472,9 +478,5 @@ footer .logo{
   button:focus{
     outline: none!important;
 	box-shadow: none!important;
-}
-
-button:focus{
-	background-color: rgba(146,80,247,1)!important;
 }
 

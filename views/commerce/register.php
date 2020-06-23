@@ -40,11 +40,14 @@ Page::headerTemplate('Lost Sock');
                                 <div class="form-group">
                                     <div class="custom-control custom-checkbox small">
                                         <input type="checkbox" class="custom-control-input" id="customCheck">
-                                        <label class="custom-control-label" for="customCheck"> <a href="conditions.php">Acepto los términos y condiciones</a></label>
+                                        <label class="custom-control-label" for="customCheck"> <a href="conditions.php">He leído y acepto los términos y condiciones</a></label>
                                     </div>
                                 </div>
                                 <div class="text-center">
                                     <button type="button" class="btn btn-primary custom--button float-none" href="dashboard.php">Registrarse</button>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <a class="" href=""><small>¿Ya tienes una cuenta?  <span class="text-purple">Inicia sesión aquí.</span></small></a>
                                 </div>
                                 </form>
                             </div>

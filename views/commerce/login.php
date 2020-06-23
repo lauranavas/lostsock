@@ -33,7 +33,7 @@ Page::headerTemplate('Lost Sock');
                                 </div>
                                 </form>
                                 <div class="text-center mt-3">
-                                    <a class="text-blue-a" href="recuperar-contra.php">¿Has olvidado tu contraseña?</a>
+                                    <a class="" href=""><small>¿Olvidaste tu contraseña?  <span class="text-purple">Recupérala aquí.</span></small></a>
                                 </div>
                             </div>
                             </div>
