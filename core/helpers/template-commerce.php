@@ -28,7 +28,9 @@ class Page {
                 <div class="overlay"></div>
                 <!-- Menú/nav -->
                 <nav class="navegation fixed-top">
-                    <i class="fas fa-times close"></i>
+                    <div class="close">
+                    <i class="fas fa-times close-icon"></i>
+                    </div>
                     <!-- Logo del menú -->
                     <div class="logo">
                         <a href="index.php">

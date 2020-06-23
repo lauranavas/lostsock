@@ -138,7 +138,7 @@ Page::headerTemplate('Lost Sock');
                 <section class="container-fluid my-5">
                     <div class="row justify-content-center no-gutters">
                         <div class="row">
-                            <div class="col-12 col-md-3">
+                            <div class="col-12 col-sm-6 col-md-3 mb-5 mb-md-0">
                                 <div class="card text-center custom--card">
                                     <div class="card-body">
                                         <div class="fad fa-heart mb-5 fa-3x text-purple"></div>
@@ -150,7 +150,7 @@ Page::headerTemplate('Lost Sock');
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-3">
+                            <div class="col-12 col-sm-6 col-md-3 mb-5 mb-md-0">
                                 <div class="card text-center custom--card">
                                     <div class="card-body">
                                         <div class="fad fa-piggy-bank mb-5 fa-3x text-purple"></div>
@@ -161,7 +161,7 @@ Page::headerTemplate('Lost Sock');
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-3">
+                            <div class="col-12 col-sm-6 col-md-3 mb-5 mb-md-0">
                                 <div class="card text-center custom--card">
                                     <div class="card-body">
                                         <div class="fad fa-truck mb-5 fa-3x text-purple"></div>
@@ -171,7 +171,7 @@ Page::headerTemplate('Lost Sock');
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-3">
+                            <div class="col-12 col-sm-6 col-md-3 mb-5 mb-md-0">
                                 <div class="card text-center custom--card">
                                     <div class="card-body">
                                         <div class="fad fa-heart mb-5 fa-3x text-purple"></div>
@@ -191,10 +191,10 @@ Page::headerTemplate('Lost Sock');
                 <!--Section que contiene el apartado descubrir de las nuevas colecciones-->
                 <section class="container-fluid my-5">
                     <div class="row justify-content-center">
-                        <div class="col-6 mx-auto">
+                        <div class="col-12 col-sm-6 mx-auto">
                             <img src="../../resources/img/back.jfif" alt="..." class="float-right w-75">
                         </div>  
-                        <div class="col-6 text-center justify-content-center my-auto">
+                        <div class="col-12 col-sm-6 text-center justify-content-center my-auto">
                             <h3 class="text-secondary">BEE SOCK</h3>
                             <p class="text-secondary">Encuentra los calcetines que más te representan con nuestra nueva colección de animales</p>
                             <button type="button" class="btn btn-primary custom--button">Comprar</button>
