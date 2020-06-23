@@ -527,14 +527,17 @@ Page::headerTemplate('Hombres');
                             <div class="row">
                                 <div class="col-12 text-center">
                                     <div class="mb-3">
-                                        <button type="button" class="btn btn-primary btn-add custom--button" href="dashboard.php">Agregar al carrito</button>
+                                        <button type="button" class="btn btn-primary btn-add custom--button" data-toggle="modal" data-target="#myModal">Agregar al carrito</button>
                                     </div>
                                 </div>
                             </div>
                     </div>
                 </div>
             </div>
-        </div>   
+        </div>
+ 
+    
+        
 <?php
 Page::footerTemplate();
 ?>
