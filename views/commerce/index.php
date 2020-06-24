@@ -3,7 +3,6 @@ require_once('../../core/helpers/template-commerce.php');
 Page::headerTemplate('Lost Sock');
 ?>
                 <div class="cover-sizing bg-image">
-                    
                     <div class="product-info">
                         <h1 class="text-secondary font-weight-bold">BEE SOCK</h1>
                         <p class="text-secondary">Lorem ipsum, dolor sit amet consectet</p>
@@ -141,7 +140,7 @@ Page::headerTemplate('Lost Sock');
                             <div class="col-12 col-sm-6 col-md-3 mb-5 mb-md-0">
                                 <div class="card text-center custom--card">
                                     <div class="card-body">
-                                        <div class="fad fa-heart mb-5 fa-3x text-purple"></div>
+                                        <div class="fad fa-heart mb-5 fa-3x text-light-blue"></div>
                                         <h4 class="card-title mb-4 text-secondary font-weight-light">Diseños únicos</h2>
                                         <p class="card-text mx-auto text-secondary">Diseños creados especialmente para representar
                                             a cada personalidad, y a aquella personalidad alocada que todos llevamos
@@ -153,7 +152,7 @@ Page::headerTemplate('Lost Sock');
                             <div class="col-12 col-sm-6 col-md-3 mb-5 mb-md-0">
                                 <div class="card text-center custom--card">
                                     <div class="card-body">
-                                        <div class="fad fa-piggy-bank mb-5 fa-3x text-purple"></div>
+                                        <div class="fad fa-piggy-bank mb-5 fa-3x text-light-blue"></div>
                                         <h4 class="card-title mb-4 text-secondary font-weight-light">Precios asequibles</h2>
                                         <p class="card-text mx-auto text-secondary">Porque pensamos en la economía y
                                             las posibilidades de nuestros clientes especiales, contamos con
@@ -164,7 +163,7 @@ Page::headerTemplate('Lost Sock');
                             <div class="col-12 col-sm-6 col-md-3 mb-5 mb-md-0">
                                 <div class="card text-center custom--card">
                                     <div class="card-body">
-                                        <div class="fad fa-truck mb-5 fa-3x text-purple"></div>
+                                        <div class="fad fa-truck mb-5 fa-3x text-light-blue"></div>
                                         <h4 class="card-title mb-4 text-secondary font-weight-light">Envíos a todo el país</h2>
                                         <p class="card-text mx-auto text-secondary">Envíos rápidos y económicos a cada rincón de país.
                                         Entregas hasta la puerta de tu casa, tu oficina o centros comerciales.</p>
@@ -174,7 +173,7 @@ Page::headerTemplate('Lost Sock');
                             <div class="col-12 col-sm-6 col-md-3 mb-5 mb-md-0">
                                 <div class="card text-center custom--card">
                                     <div class="card-body">
-                                        <div class="fad fa-heart mb-5 fa-3x text-purple"></div>
+                                        <div class="fad fa-heart mb-5 fa-3x text-light-blue"></div>
                                         <h4 class="card-title mb-4 text-secondary font-weight-light">Diseños únicos</h2>
                                         <p class="card-text mx-auto text-secondary">Diseños creados especialmente para representar
                                             a cada personalidad, y a aquella personalidad alocada que todos llevamos
@@ -192,7 +191,7 @@ Page::headerTemplate('Lost Sock');
                 <section class="container-fluid my-5">
                     <div class="row justify-content-center">
                         <div class="col-12 col-sm-6 mx-auto">
-                            <img src="../../resources/img/back.jfif" alt="..." class="float-right w-75">
+                            <img src="../../resources/img/back.jfif" alt="..." class="float-right w-75" id="discover">
                         </div>  
                         <div class="col-12 col-sm-6 text-center justify-content-center my-auto">
                             <h3 class="text-secondary">BEE SOCK</h3>
@@ -202,99 +201,56 @@ Page::headerTemplate('Lost Sock');
                     </div>
                 </section>
                 <hr>
-                <div class="container-fluid mb-5">
-                    <h3 class="text-center my-5 text-secondary text-uppercase">Exclusivos</h3>
-                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="5000">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="row">
-                                    <div class="col-6 col-sm-4 col-md-3">
-                                        <div class="card custom--card">
-                                            <img class="card-img-top img-fluid" src="../../resources/img/socks3.jpg" alt="Card image cap">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-center">Penguin Sock</h5>
-                                                <p class="card-text text-center">$5</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-6 col-sm-4 col-md-3">
-                                        <div class="card custom--card">
-                                            <img class="card-img-top img-fluid" src="../../resources/img/socks3.jpg" alt="Card image cap">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-center">Penguin Sock</h5>
-                                                <p class="card-text text-center">$5</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-6 col-sm-4 col-md-3">
-                                        <div class="card custom--card">
-                                            <img class="card-img-top img-fluid" src="../../resources/img/socks3.jpg" alt="Card image cap">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-center">Penguin Sock</h5>
-                                                <p class="card-text text-center">$5</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-6 col-sm-4 col-md-3">
-                                        <div class="card custom--card">
-                                            <img class="card-img-top img-fluid" src="../../resources/img/socks3.jpg" alt="Card image cap">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-center">Penguin Sock</h5>
-                                                <p class="card-text text-center">$5</p>
-                                            </div>
-                                        </div>
+                <div class="container mb-5">
+                    <h3 class="text-center my-5 text-secondary">Exclusivos</h3>
+                    <div class="row">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="card custom--card">
+                                    <img class="card-img-top img-fluid" src="../../resources/img/socks3.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Penguin Sock</h5>
+                                        <p class="card-text text-center">$5</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-6 col-sm-4 col-md-3">
-                                        <div class="card custom--card">
-                                            <img class="card-img-top img-fluid" src="../../resources/img/socks3.jpg" alt="Card image cap">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-center">Penguin Sock</h5>
-                                                <p class="card-text text-center">$5</p>
-                                            </div>
-                                        </div>
+                            <div class="item">
+                                <div class="card custom--card">
+                                    <img class="card-img-top img-fluid" src="../../resources/img/socks3.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Penguin Sock</h5>
+                                        <p class="card-text text-center">$5</p>
                                     </div>
-                                    <div class="col-6 col-sm-4 col-md-3">
-                                        <div class="card custom--card">
-                                            <img class="card-img-top img-fluid" src="../../resources/img/socks3.jpg" alt="Card image cap">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-center">Penguin Sock</h5>
-                                                <p class="card-text text-center">$5</p>
-                                            </div>
-                                        </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="card custom--card">
+                                    <img class="card-img-top img-fluid" src="../../resources/img/socks3.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Penguin Sock</h5>
+                                        <p class="card-text text-center">$5</p>
                                     </div>
-                                    <div class="col-6 col-sm-4 col-md-3">
-                                        <div class="card custom--card">
-                                            <img class="card-img-top img-fluid" src="../../resources/img/socks3.jpg" alt="Card image cap">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-center">Penguin Sock</h5>
-                                                <p class="card-text text-center">$5</p>
-                                            </div>
-                                        </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="card custom--card">
+                                    <img class="card-img-top img-fluid" src="../../resources/img/socks3.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Penguin Sock</h5>
+                                        <p class="card-text text-center">$5</p>
                                     </div>
-                                    <div class="col-6 col-sm-4 col-md-3">
-                                        <div class="card custom--card">
-                                            <img class="card-img-top img-fluid" src="../../resources/img/socks3.jpg" alt="Card image cap">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-center">Penguin Sock</h5>
-                                                <p class="card-text text-center">$5</p>
-                                            </div>
-                                        </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="card custom--card">
+                                    <img class="card-img-top img-fluid" src="../../resources/img/socks3.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Penguin Sock</h5>
+                                        <p class="card-text text-center">$5</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
                     </div>
                 </div>
 <?php

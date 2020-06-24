@@ -1,4 +1,3 @@
-
 /*Se aplica a todas las etiqueta a, para que no tengan decoración en ninguno de estos estados*/
 a, a:hover, a:active, a:link, a:visited{
 	text-decoration: none;
@@ -27,7 +26,7 @@ a, a:hover, a:active, a:link, a:visited{
 nav{
 	position: absolute;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 	border-bottom:none;
 	z-index: 1080;
@@ -203,6 +202,10 @@ footer .logo{
 	margin-top: 80px;
 }
 
+.cover--account{
+	margin-top: -140px;
+}
+
 .cover-sizing{
 	height: 100vh;
 }
@@ -270,7 +273,6 @@ footer .logo{
 		padding: 0 1rem;
 		line-height: 3.33rem;
 	}
-    
 }
 
 
@@ -302,7 +304,6 @@ footer .logo{
 	nav ul{
 		height: auto;
 		display: block;
-		font-size: 1.33rem;
 		text-align: center;
 		margin: 0;
 		padding: 0;
@@ -331,6 +332,7 @@ footer .logo{
 
 	.menu-toggle{
 		display: flex;
+		position: fixed;
 	}
 
 	.fa.times{
@@ -370,6 +372,10 @@ footer .logo{
 	}
 
 	.product-slider-container{
+		display: none;
+	}
+
+	.product-slider{
 		display: none;
 	}
 
@@ -425,6 +431,10 @@ footer .logo{
 	  background-image: url('../../resources/img/cover576.jpg');
 	}
 
+	#discover{
+		display: none;
+	}
+
 }
 
 .slider--card{
@@ -458,15 +468,33 @@ footer .logo{
 	color: rgb(235, 195, 20);
  }
 
+ .text-light-blue{
+	color: rgb(0, 191, 191);;
+ }
+
 .dot {
-  height: 20px;
-  width: 20px;
+  height: 30px;
+  width: 30px;
   border-radius: 50%;
   display: inline-block;
 }
 
+.dot.product--color {
+  height: 18px;
+  width: 18px;
+
+}
+
+#product--star{
+	font-size: 12px;
+}
+
 .bg--purple{
 	background-color: rgba(146,80,247,1)!important;
+}
+
+.bg--light-blue{
+	background-color: rgb(197, 241, 243);
 }
 
 .bg--inactive{
@@ -488,3 +516,58 @@ footer .logo{
 	box-shadow: none!important;
 }
 
+/*Scrollbar configuration*/
+/* height */
+::-webkit-scrollbar {
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(170, 170, 170); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(126, 125, 125); 
+}
+
+.profile--pic{
+	height: 150px;
+	width: 150px;
+}
+
+.camera--button {
+  color: white;
+}
+
+.camera--button:hover {
+  transition: all .6s cubic-bezier(.175, .885, .32, 1.275);
+  color: rgba(96,15,218,1);
+}
+
+.p-image {
+	position: absolute;
+	right: 16px;
+	bottom: 0;
+    background: rgba(175,122,255,1);
+    border-radius: 50%;
+    width: 2.2rem;
+	height: 2.2rem;
+	padding-top: 5px;
+	transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+    text-align: center;
+}
+
+.p-image:hover {
+  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+
+.image-upload>input {
+  display: none;
+}
