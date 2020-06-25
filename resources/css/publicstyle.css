@@ -146,7 +146,7 @@ footer .logo{
 }
 
 .bg-image {
-  background-image: url('../../resources/img/background.jpg');
+  background-image: url('../../resources/img/bg.jpg');
   background-size: cover;
   background-position: center center;
 }
@@ -238,7 +238,7 @@ footer .logo{
 	.product-info h1{
 		font-size: 2.33rem;
 		margin-bottom: 1.33rem;
-				letter-spacing: 5px;
+		letter-spacing: 5px;
 
 	}
 
@@ -368,7 +368,7 @@ footer .logo{
 	}
 
 	.cover-sizing{
-		height: calc(100vh - 80px);
+		height: calc(100vh - 160px);
 	}
 
 	.product-slider-container{
@@ -388,22 +388,16 @@ footer .logo{
 	}
 
 	.product-info{
-	display: flex;
-	float: center;
-	width: 100%;
-	transform: translateY(60%);	
+		display: flex;
+		background-color: 	rgba(255, 255, 255, 0.7);
+		padding: 20px;
+		width: 50%;
+		float: none!important;
+		box-shadow: 0 0 15px rgba(10, 10, 10, 0.05);
 	}
 
 	.product-info h1{
-		color: white!important;
-	}
-
-	.product-info p{
-		color: white!important;
-	}
-
-	.product-info h2{
-		color: white!important;
+		color: rgb(146, 80, 247);
 	}
 
 	.bg-image {
@@ -418,8 +412,16 @@ footer .logo{
 		display: none;
 	}
 
+	.cover-sizing{
+		height: 100vh;
+	}
+
 	.login--container{
 		margin-top: -110px;
+	}
+	
+	.product-info{
+		transform: translateY(50%)!important;
 	}
 	
 }
@@ -433,6 +435,14 @@ footer .logo{
 
 	#discover{
 		display: none;
+	}
+
+	.custom--button{
+		width: 9.5rem!important;
+	}
+
+	.product-info{
+		width: 80%;
 	}
 
 }

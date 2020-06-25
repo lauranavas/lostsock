@@ -3,10 +3,10 @@ require_once('../../core/helpers/template-commerce.php');
 Page::headerTemplate('Lost Sock');
 ?>
                 <div class="cover-sizing bg-image">
-                    <div class="product-info">
-                        <h1 class="text-secondary font-weight-bold">BEE SOCK</h1>
-                        <p class="text-secondary">Lorem ipsum, dolor sit amet consectet</p>
-                        <h2 class="text-secondary mb-5">$12.99</h2>
+                    <div class="product-info justify-content-center">
+                        <h1 class="font-weight-bold text-center">BEE SOCK</h1>
+                        <p class="text-secondary text-center">Lorem ipsum, dolor sit amet consectet</p>
+                        <h2 class="text-secondary mb-5 text-center">$12.99</h2>
                         <button type="button" class="btn btn-primary custom--button">Comprar</button>
                     </div>
                 </div>
