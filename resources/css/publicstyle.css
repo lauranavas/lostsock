@@ -273,6 +273,10 @@ footer .logo{
 		padding: 0 1rem;
 		line-height: 3.33rem;
 	}
+
+	.bg-image {
+	  	background-image: url('../../resources/img/bg2.jpg');
+	}
 }
 
 
@@ -396,10 +400,6 @@ footer .logo{
 		box-shadow: 0 0 15px rgba(10, 10, 10, 0.05);
 	}
 
-	.product-info h1{
-		color: rgb(146, 80, 247);
-	}
-
 	.bg-image {
 	background-image: url('../../resources/img/duotone.jpg');
 	}
@@ -479,7 +479,7 @@ footer .logo{
  }
 
  .text-light-blue{
-	color: rgb(0, 191, 191);;
+	color: rgb(0, 191, 191);
  }
 
 .dot {
